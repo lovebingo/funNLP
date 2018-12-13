@@ -3,7 +3,7 @@
 很多包非常有趣，值得收藏，满足大家的收集癖！
 如果觉得有用，请分享并star，谢谢！
 
-涉及内容包括：**中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料**。
+涉及内容包括：**中英文敏感词、语言检测、中外手机/电话归属地/运营商查询、名字推断性别、手机号抽取、身份证抽取、邮箱抽取、中日文人名库、中文缩写库、拆字词典、词汇情感值、停用词、反动词表、暴恐词表、繁简体转换、英文模拟中文发音、汪峰歌词生成器、职业名称词库、同义词库、反义词库、否定词库、汽车品牌词库、汽车零件词库、连续英文切割、各种中文词向量、公司名字大全、古诗词库、IT词库、财经词库、成语词库、地名词库、历史名人词库、诗词词库、医学词库、饮食词库、法律词库、汽车词库、动物词库、中文聊天语料、中文谣言数据**。
 
 **1\. textfilter: 中英文敏感词过滤**  [observerss/textfilter](https://github.com/observerss/textfilter)
 ```
@@ -192,7 +192,7 @@ Hi，all。下周一下午三点开会
 
 **28\. 公司名字大全：** [github repo](https://github.com/wainshine/Company-Names-Corpus)
 
-**29\. 古诗词库：** [github repo](https://github.com/panhaiqi/AncientPoetry)
+**29\. 古诗词库：** [github repo](https://github.com/panhaiqi/AncientPoetry) [更全的古诗词库](https://github.com/chinese-poetry/chinese-poetry)
 
 **30\. THU整理的词库：** [link](http://thuocl.thunlp.org/sendMessage)
 
@@ -204,4 +204,26 @@ IT词库、财经词库、成语词库、地名词库、历史名人词库、诗
 ```
 该库搜集了包含:豆瓣多轮, PTT八卦语料, 青云语料, 电视剧对白语料, 贴吧论坛回帖语料,微博语料,小黄鸡语料
 ```
+**32\. 中文谣言数据**[github](https://github.com/thunlp/Chinese_Rumor_Dataset)
+```
+该数据文件中，每一行为一条json格式的谣言数据，字段释义如下：
+
+rumorCode: 该条谣言的唯一编码，可以通过该编码直接访问该谣言举报页面。
+title: 该条谣言被举报的标题内容
+informerName: 举报者微博名称
+informerUrl: 举报者微博链接
+rumormongerName: 发布谣言者的微博名称
+rumormongerUr: 发布谣言者的微博链接
+rumorText: 谣言内容
+visitTimes: 该谣言被访问次数
+result: 该谣言审查结果
+publishTime: 该谣言被举报时间
+```
 [jieba](https://github.com/fxsjy/jieba)和[hanlp](https://github.com/hankcs/pyhanlp)就不必说了吧。
+
+**33\. 情感波动分析：**[github](https://github.com/CasterWx/python-girlfriend-mood/)
+
+词库已整理到本repo的data文件夹中.
+```
+本repo项目是一个通过与人对话获得其情感值波动图谱, 内用词库在data文件夹中.
+```
